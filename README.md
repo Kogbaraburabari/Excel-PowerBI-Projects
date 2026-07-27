@@ -9,6 +9,8 @@ Each project lives in its own folder with a full writeup.
 |---|---|---|
 | 1 | [Data Cleaning & Preparation](./DecodeLabs-Internship-Project-1-Data-Cleaning) | Cleaning a 1,200-row raw sales dataset: nulls, formatting, standardization |
 | 2 | [Exploratory Data Analysis](./DecodeLabs-Internship-Project-2-EDA) | Uncovering sales trends, outliers, and revenue drivers from 1,200 cleaned transactions |
+| 3 | [Data Visualization & Dashboard Design](./DecodeLabs-Internship-Project-4-Dashboard-Design) | Building pivot tables and a summary dashboard to present sales performance visually |
+
 ## Skills demonstrated
 - Data cleaning & validation
 - Handling missing/null values
