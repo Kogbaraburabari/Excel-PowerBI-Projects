@@ -14,3 +14,5 @@ Each project lives in its own folder with a full writeup.
 - Handling missing/null values
 - Standardizing formats (dates, currency, text)
 - Documenting data-quality decisions
+  
+| 2 | [Exploratory Data Analysis](./DecodeLabs-Internship-Project-2-EDA) | Uncovering sales trends, outliers, and revenue drivers from 1,200 cleaned transactions |
