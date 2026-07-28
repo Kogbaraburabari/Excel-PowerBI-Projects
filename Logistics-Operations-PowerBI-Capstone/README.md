@@ -1,6 +1,6 @@
 # Logistics Operations: Power BI Capstone
 
-**Program:** TS Academy Data Analytics Capstone
+**Program:** TS Academy — Data Analytics Capstone
 **Tool used:** Power BI (Power Query + Data Modeling + DAX + Report Design)
 
 ## Objective
@@ -31,7 +31,7 @@ its business.
 
 ## Data Cleaning (Power Query)
 - **Missing foreign keys** in `trips`, `fuel_purchases`, and `safety_incidents` (unassigned
-  driver/truck/trailer on a small share of records) — filled with `"Unassigned"` / `"Unknown"`
+  driver/truck/trailer on a small share of records) filled with `"Unassigned"` / `"Unknown"`
   rather than left blank, so these records remain queryable and visible in aggregations instead
   of silently disappearing from joins
 - **Missing `termination_date`** in `drivers` left as blank by design, since this correctly
@@ -45,6 +45,37 @@ Custom measures built to power the report's KPI cards and visuals, including:
 `Total Loads Revenue` · `Total Profit` · `Avg Revenue Per Load` · `Profit Margin` ·
 `On Time Deliveries` · `Total Active Drivers` · `Total Active Trucks` · `Average MPG` ·
 `Preventable Incidents %` · `Driver Liability Rate`
+
+## Report Screenshots
+
+**Data Model**
+![Data Model](./data-model.png)
+The full 14-table relational model built in Power BI, showing all connections between Trips,
+Drivers, Trucks, Trailers, Loads, Routes, Customers, and supporting tables.
+
+**Business Performance**
+![Business Performance](./business-performance.png)
+Total revenue, profit, margin, and on-time delivery rate, with breakdowns by customer type,
+freight type, top routes, and monthly revenue trend.
+
+**Driver & Routes**
+![Driver & Routes](./driver-routes.png)
+Revenue, accessorial charges, fuel surcharge, and average MPG, plus driver earnings, on-time
+performance, and the most efficient drivers.
+
+**Fleet & Operations**
+![Fleet & Operations](./fleet-operations.png)
+Maintenance cost, fuel purchases, downtime hours, and utilization rate, broken down by truck
+make and month.
+
+**Safety & Compliance**
+![Safety & Compliance](./safety-compliance.png)
+Claimed cost, damage cost, avoidable incident rate, and driver liability rate, with an incident
+trend line and a map of incidents by state.
+
+**Truck Information**
+![Truck Information](./truck-information.png)
+Per-truck maintenance cost breakdown, average MPG trend, and full truck details table.
 
 ## Report Structure (5 pages)
 
@@ -78,7 +109,7 @@ driver liability rate, plus incident trend over time and an incident map by stat
 - **Safety:** 170 recorded incidents totaling $2.65M in claims; 37.6% were flagged as preventable and 31.8% as at-fault both areas worth targeted safety interventions
 
 ## Files in this project
-- [`Logistic Operation Dataset.pbix`](./Logistic%20Operation%20Dataset.pbix) — full Power BI file (raw data, Power Query cleaning steps, data model, DAX measures, and report)
+- [`Logistic Operation Dataset.pbix`](./Logistic%20Operation%20Dataset.pbix) full Power BI file (raw data, Power Query cleaning steps, data model, DAX measures, and report)
 
 ## Skills applied
 `Power BI` `Power Query (ETL)` `Data Modeling` `DAX` `Relational Schema Design` `Dashboard Design` `Business Insight Reporting`
