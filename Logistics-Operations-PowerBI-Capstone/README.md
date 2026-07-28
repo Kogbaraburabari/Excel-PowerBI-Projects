@@ -78,7 +78,7 @@ driver liability rate, plus incident trend over time and an incident map by stat
 - **Safety:** 170 recorded incidents totaling $2.65M in claims; 37.6% were flagged as preventable and 31.8% as at-fault both areas worth targeted safety interventions
 
 ## Files in this project
-- [`Logistic_Operation_Dataset.pbix`](./Logistic_Operation_Dataset.pbix) full Power BI file (raw data, Power Query cleaning steps, data model, DAX measures, and report)
+- [`Logistic Operation Dataset.pbix`](./Logistic%20Operation%20Dataset.pbix) — full Power BI file (raw data, Power Query cleaning steps, data model, DAX measures, and report)
 
 ## Skills applied
 `Power BI` `Power Query (ETL)` `Data Modeling` `DAX` `Relational Schema Design` `Dashboard Design` `Business Insight Reporting`
