@@ -1,4 +1,4 @@
-# Logistics Operations: Power BI Capstone
+# Logistics Operations Analytics Dashboard | Power BI
 
 **Program:** TS Academy — Data Analytics Capstone
 **Tool used:** Power BI (Power Query + Data Modeling + DAX + Report Design)
