@@ -3,7 +3,7 @@
 
 An end-to-end data analytics project analyzing the urban–rural electricity access gap across 48 Sub-Saharan African countries, built with Power BI and the World Bank's World Development Indicators (WDI).
 
-**Capstone project — AnalystLab Africa Data Analytics Internship, Week 8**
+**Capstone project AnalystLab Africa Data Analytics Internship, Week 8**
 
 ---
 
