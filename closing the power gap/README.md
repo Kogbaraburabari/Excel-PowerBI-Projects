@@ -16,10 +16,10 @@ National access figures often hide a sharper divide: what a country's cities enj
 ## 📊 Dashboard Preview
 
 **Widest Gap Countries view** — Angola, Mauritania, and Niger, the three countries with the steepest urban–rural divide
-![Widest Gap Countries view](screenshots/dashboard-widest-gap.png)
+![Widest Gap Countries view](screenshotsdashboard-widest-gap.png)
 
 **Major Economies view** — Kenya, Nigeria, and South Africa, the region's largest economies
-![Major Economies view](screenshots/dashboard-major-economies.png)
+![Major Economies view](screenshotsdashboard-major-economies.png)
 ## 🔑 Key Findings
 
 | Metric (latest reporting year) | Value |
